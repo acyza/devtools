@@ -1,6 +1,6 @@
 on: workflow_dispatch
 jobs:
-  rebase:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
